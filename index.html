@@ -7,50 +7,63 @@
     <title>CSS Project</title>
 </head>
 <body>
-    <div class="container1">
-    <header>
-        <h1>Template Consulting</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    </div>  
-    <main>
+    <div class="container">
+        <header>
+            <h1>Template Consulting</h1>
+            <nav>
+                <div class="links">
+                    <ul>
+                     <li><a href="#about">About</a></li>
+                     <li><a href="#services">Services</a></li>
+                     <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>    
+            </nav>
+        </header>
+
         <div class="intro" id="intro">
-            <h1>Let Me Help You</h1>
-            <p>Some quick subtext to sell your brand identity and how that can help the client.</p>
-            <button>Sign up</button>
-            <! -- Add img tag once img git add -->
+            <div class="intro-text">
+                <h1>Let Me Help You</h1>
+                <p>Some quick subtext to sell your brand identity and how that can help the client.</p>
+                <button>Sign up</button>
+            </div>
+            <div class="intro-image">
+                <! -- Add img tag once img git add -->
+            </div>
         </div>
-        <div class="about" id="about">
-            <h2>The Team</h2>
-            <ul>
-                <li id="Adv1"><img src="" alt="Advisor1"><a href="#team1">Team Member 1</a></li>
-                <p id="Adv1">Name. Some quick subtext about this individual and how they can help the client.</p>
-                <li id="Adv2"><img src="" alt="Advisor2"><a href="#team2">Team Member 2</a></li>
-                <p id="Adv2">Name. Some quick subtext about this individual and how they can help the client.</p>
-                <li id="Adv3"><img src="" alt="Advisor3"><a href="#team3">Team Member 3</a></li>
-                <p id="Adv3">Name. Some quick subtext about this individual and how they can help the client.</p>
-                <li id="Adv4"><img src="" alt="Advisor4"><a href="#team4">Team Member 4</a></li>
-                <p id="Adv4">Name. Some quick subtext about this individual and how they can help the client.</p>
-            </ul>
+    </div>
+
+    <div class="about" id="about">
+        <h2>The Team</h2>
+        <ul>
+            <li id="Adv1"><img src="" alt="Advisor1"><a href="#team1">Team Member 1</a>
+            <p id="Adv1">Name. Some quick subtext about this individual and how they can help the client.</p></li>
+            <li id="Adv2"><img src="" alt="Advisor2"><a href="#team2">Team Member 2</a>
+            <p id="Adv2">Name. Some quick subtext about this individual and how they can help the client.</p></li>
+            <li id="Adv3"><img src="" alt="Advisor3"><a href="#team3">Team Member 3</a>
+            <p id="Adv3">Name. Some quick subtext about this individual and how they can help the client.</p></li>
+            <li id="Adv4"><img src="" alt="Advisor4"><a href="#team4">Team Member 4</a>
+            <p id="Adv4">Name. Some quick subtext about this individual and how they can help the client.</p></li>
+        </ul>
+    </div>
+
+    <div class="services" id="services">
+        <figure>
+            <blockquote>If you're not first you're last.</blockquote>
+            <figcaption>— Ricky Bobby</figcaption>
+        </figure>
+    </div>
+
+    <div class="contact" id="contact">
+        <div class="contactbox">
+            <div class="contacttext">
+                <h2>Contact Us</h2>
+                <p>Contact us or else we'll find you</p>
+            </div>    
+            <button>contact</button>
         </div>
-        <div class="Services" id="services">
-            <figure>
-                <blockquote>If you're not first you're last.</blockquote>
-                <figcaption>— Ricky Bobby</figcaption>
-            </figure>
-        </div>
-        <div class="Contact" id="Contact">
-            <h2>Contact Us</h2>
-            <p>Contact us or else we'll find you</p>
-                <button>contact</button>
-        </div>
-    </main>  
+    </div>
+ 
     <footer>
         <p>&copy; 2025 Template Consulting. All rights reserved.</p>
     </footer>
