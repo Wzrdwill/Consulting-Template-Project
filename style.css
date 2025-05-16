@@ -87,6 +87,12 @@ button {
     justify-content: space-evenly;
     gap: 10px;
 }
+.about img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    align-items: center;
+}
 
 .services {
     display: flex;
